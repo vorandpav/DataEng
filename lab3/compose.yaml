@@ -1,0 +1,48 @@
+name: lab3-rustfs
+
+services:
+  rustfs-home:
+    image: rustfs/rustfs:1.0.0
+    container_name: lab3-rustfs-home
+    environment:
+      RUSTFS_ACCESS_KEY: ${S3_ACCESS_KEY:-hhadmin}
+      RUSTFS_SECRET_KEY: ${S3_SECRET_KEY:-hhadmin-secret}
+      RUSTFS_VOLUMES: /data/vol{1...8}
+      RUSTFS_ERASURE_SET_DRIVE_COUNT: "8"
+      RUSTFS_STORAGE_CLASS_STANDARD: "EC:4"
+      RUSTFS_UNSAFE_BYPASS_DISK_CHECK: "true"
+      RUSTFS_ADDRESS: ":9000"
+      RUSTFS_CONSOLE_ADDRESS: ":9001"
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    volumes:
+      - ./vol1:/data/vol1
+      - ./vol2:/data/vol2
+      - ./vol3:/data/vol3
+      - ./vol4:/data/vol4
+      - ./vol5:/data/vol5
+      - ./vol6:/data/vol6
+      - ./vol7:/data/vol7
+      - ./vol8:/data/vol8
+    networks: [stand]
+    restart: "no"
+
+  s3cli:
+    image: amazon/aws-cli:2.36.45
+    container_name: lab3-s3cli
+    networks: [stand]
+    restart: "no"
+    entrypoint: ["sh", "-c", "sleep infinity"]
+    environment:
+      AWS_ACCESS_KEY_ID: ${S3_ACCESS_KEY:-hhadmin}
+      AWS_SECRET_ACCESS_KEY: ${S3_SECRET_KEY:-hhadmin-secret}
+      AWS_DEFAULT_REGION: us-east-1
+      AWS_ENDPOINT_URL: http://rustfs-home:9000
+      AWS_EC2_METADATA_DISABLED: "true"
+    volumes:
+      - ./data:/course:ro
+    depends_on: [rustfs-home]
+
+networks:
+  stand:
