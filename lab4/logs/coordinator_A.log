@@ -1,0 +1,86 @@
+2026-10-30 01:03:50,625 старт координатора id=A fencing=False session_timeout=10000ms
+2026-10-30 01:03:50,669 === стал лидером (id=A, fencing=False) ===
+2026-10-30 01:03:50,685 эпоха лидерства: 1
+2026-10-30 01:03:50,687 старт с начала файла
+2026-10-30 01:03:50,859 чекпоинт offset=16776260; singles: keys=168 sum=591; pairs: keys=1595 sum=2476; triples: keys=7936 sum=9082
+2026-10-30 01:03:53,039 чекпоинт offset=33551604; singles: keys=249 sum=1124; pairs: keys=2387 sum=4533; triples: keys=11558 sum=15493
+2026-10-30 01:03:55,222 чекпоинт offset=50327199; singles: keys=317 sum=1655; pairs: keys=3188 sum=6553; triples: keys=15222 sum=21008
+2026-10-30 01:03:57,416 чекпоинт offset=67105215; singles: keys=384 sum=2336; pairs: keys=4249 sum=9363; triples: keys=23356 sum=33057
+2026-10-30 01:03:59,609 чекпоинт offset=83883330; singles: keys=432 sum=2902; pairs: keys=4866 sum=11631; triples: keys=26701 sum=40161
+2026-10-30 01:04:01,817 чекпоинт offset=100661283; singles: keys=474 sum=3368; pairs: keys=5375 sum=13270; triples: keys=29498 sum=44827
+2026-10-30 01:04:04,020 чекпоинт offset=117436620; singles: keys=523 sum=3952; pairs: keys=6259 sum=15655; triples: keys=35697 sum=53426
+2026-10-30 01:04:06,228 чекпоинт offset=134215550; singles: keys=543 sum=4478; pairs: keys=6532 sum=17445; triples: keys=37040 sum=58218
+2026-10-30 01:04:08,457 чекпоинт offset=150989822; singles: keys=591 sum=5073; pairs: keys=7422 sum=19945; triples: keys=43212 sum=67419
+2026-10-30 01:04:10,678 чекпоинт offset=167770246; singles: keys=634 sum=5791; pairs: keys=8002 sum=22527; triples: keys=46168 sum=73904
+2026-10-30 01:04:12,897 чекпоинт offset=184549068; singles: keys=661 sum=6456; pairs: keys=8454 sum=25304; triples: keys=48999 sum=82729
+2026-10-30 01:04:15,119 чекпоинт offset=201323860; singles: keys=679 sum=7043; pairs: keys=8749 sum=27731; triples: keys=50979 sum=90659
+2026-10-30 01:04:17,352 чекпоинт offset=218103763; singles: keys=731 sum=7705; pairs: keys=9440 sum=30231; triples: keys=54960 sum=97879
+2026-10-30 01:07:15,191 чекпоинт offset=234879796; singles: keys=765 sum=8296; pairs: keys=9880 sum=32480; triples: keys=57309 sum=104238
+2026-10-30 01:07:17,422 чекпоинт offset=251657362; singles: keys=798 sum=8915; pairs: keys=10280 sum=34804; triples: keys=59293 sum=110621
+2026-10-30 01:07:19,660 чекпоинт offset=268432966; singles: keys=819 sum=9407; pairs: keys=10616 sum=36666; triples: keys=61604 sum=116342
+2026-10-30 01:07:21,916 чекпоинт offset=285212113; singles: keys=829 sum=9898; pairs: keys=10726 sum=38672; triples: keys=62358 sum=122408
+2026-10-30 01:07:24,153 чекпоинт offset=301985088; singles: keys=848 sum=10347; pairs: keys=11046 sum=40652; triples: keys=64371 sum=129692
+2026-10-30 01:07:26,441 чекпоинт offset=318764825; singles: keys=882 sum=10778; pairs: keys=12013 sum=43058; triples: keys=74286 sum=143326
+2026-10-30 01:07:28,738 чекпоинт offset=335543562; singles: keys=902 sum=11501; pairs: keys=12383 sum=46081; triples: keys=76830 sum=154284
+2026-10-30 01:07:31,081 чекпоинт offset=352318063; singles: keys=922 sum=12177; pairs: keys=12782 sum=48952; triples: keys=80039 sum=164221
+2026-10-30 01:07:33,366 чекпоинт offset=369097601; singles: keys=977 sum=12907; pairs: keys=13382 sum=51627; triples: keys=82968 sum=171465
+2026-10-30 01:07:35,738 чекпоинт offset=385875150; singles: keys=1036 sum=13556; pairs: keys=14152 sum=54142; triples: keys=87519 sum=179706
+2026-10-30 01:07:38,036 чекпоинт offset=402651874; singles: keys=1072 sum=14263; pairs: keys=14625 sum=56495; triples: keys=90145 sum=185689
+2026-10-30 01:07:40,372 чекпоинт offset=419426511; singles: keys=1126 sum=14944; pairs: keys=15382 sum=59205; triples: keys=95205 sum=194859
+2026-10-30 01:07:42,671 чекпоинт offset=436206380; singles: keys=1174 sum=15588; pairs: keys=15930 sum=61535; triples: keys=97839 sum=201653
+2026-10-30 01:07:44,958 чекпоинт offset=452984754; singles: keys=1218 sum=16246; pairs: keys=16461 sum=63985; triples: keys=101349 sum=209208
+2026-10-30 01:07:47,279 чекпоинт offset=469760679; singles: keys=1250 sum=16860; pairs: keys=16860 sum=66407; triples: keys=104066 sum=217100
+2026-10-30 01:07:49,590 чекпоинт offset=486536509; singles: keys=1281 sum=17435; pairs: keys=17354 sum=68541; triples: keys=107855 sum=224268
+2026-10-30 01:07:51,884 чекпоинт offset=503314101; singles: keys=1316 sum=18175; pairs: keys=17922 sum=71647; triples: keys=111729 sum=234255
+2026-10-30 01:07:54,205 чекпоинт offset=520088901; singles: keys=1357 sum=18797; pairs: keys=18536 sum=74285; triples: keys=115913 sum=243230
+2026-10-30 01:07:56,521 чекпоинт offset=536869266; singles: keys=1387 sum=19420; pairs: keys=19221 sum=77075; triples: keys=122756 sum=255260
+2026-10-30 01:07:58,826 чекпоинт offset=553647142; singles: keys=1415 sum=19990; pairs: keys=19650 sum=79432; triples: keys=125301 sum=262335
+2026-10-30 01:08:01,135 чекпоинт offset=570419374; singles: keys=1432 sum=20569; pairs: keys=20069 sum=81587; triples: keys=128615 sum=268871
+2026-10-30 01:08:03,458 чекпоинт offset=587202040; singles: keys=1447 sum=21231; pairs: keys=20375 sum=84112; triples: keys=130949 sum=277075
+2026-10-30 01:08:05,785 чекпоинт offset=603978745; singles: keys=1472 sum=21978; pairs: keys=20738 sum=87165; triples: keys=132991 sum=287002
+2026-10-30 01:08:08,137 чекпоинт offset=620752953; singles: keys=1520 sum=22701; pairs: keys=21429 sum=89956; triples: keys=137767 sum=296425
+2026-10-30 01:08:10,509 чекпоинт offset=637532226; singles: keys=1527 sum=23276; pairs: keys=21642 sum=92287; triples: keys=139624 sum=303614
+2026-10-30 01:08:12,895 чекпоинт offset=654307344; singles: keys=1546 sum=23769; pairs: keys=21891 sum=94393; triples: keys=141002 sum=311771
+2026-10-30 01:08:15,244 чекпоинт offset=671085756; singles: keys=1561 sum=24344; pairs: keys=22231 sum=96680; triples: keys=143418 sum=318776
+2026-10-30 01:08:17,581 чекпоинт offset=687864069; singles: keys=1579 sum=24785; pairs: keys=22534 sum=98399; triples: keys=145697 sum=324303
+2026-10-30 01:08:19,933 чекпоинт offset=704642711; singles: keys=1594 sum=25315; pairs: keys=22922 sum=100676; triples: keys=149196 sum=332994
+2026-10-30 01:08:22,284 чекпоинт offset=721419753; singles: keys=1611 sum=25936; pairs: keys=23315 sum=103062; triples: keys=152423 sum=340490
+2026-10-30 01:08:24,634 чекпоинт offset=738197028; singles: keys=1637 sum=26529; pairs: keys=23869 sum=105583; triples: keys=157673 sum=350174
+2026-10-30 01:08:26,987 чекпоинт offset=754963226; singles: keys=1652 sum=27142; pairs: keys=24157 sum=108092; triples: keys=160020 sum=358232
+2026-10-30 01:08:29,344 чекпоинт offset=771751638; singles: keys=1660 sum=27705; pairs: keys=24455 sum=110656; triples: keys=163432 sum=370050
+2026-10-30 01:08:31,702 чекпоинт offset=788526895; singles: keys=1674 sum=28351; pairs: keys=24776 sum=113072; triples: keys=165787 sum=377231
+2026-10-30 01:08:34,065 чекпоинт offset=805303329; singles: keys=1704 sum=29073; pairs: keys=25332 sum=115929; triples: keys=169368 sum=385979
+2026-10-30 01:08:36,433 чекпоинт offset=822078788; singles: keys=1715 sum=29718; pairs: keys=25527 sum=118372; triples: keys=170586 sum=392806
+2026-10-30 01:08:38,828 чекпоинт offset=838859906; singles: keys=1761 sum=30414; pairs: keys=26164 sum=121140; triples: keys=175411 sum=403129
+2026-10-30 01:08:41,119 чекпоинт offset=847619384; singles: keys=1774 sum=30698; pairs: keys=26295 sum=122143; triples: keys=176154 sum=405784
+2026-10-30 01:08:43,123 расчёт завершён за 292.4s; singles: keys=1774 sum=30698; pairs: keys=26295 sum=122143; triples: keys=176154 sum=405784
+2026-10-30 01:08:43,511 CSV одиночных навыков: C:\Users\Professional\DataEng\lab4\results\singles_A.csv
+2026-10-30 01:08:43,512 CSV пар: C:\Users\Professional\DataEng\lab4\results\pairs_A.csv
+2026-10-30 01:08:43,512 CSV троек: C:\Users\Professional\DataEng\lab4\results\triples_A.csv
+2026-10-30 01:08:43,528 записал результат (version=1)
+2026-10-30 01:08:43,530 указатель в ZK: coord=A epoch=1 singles: keys=1774 sum=30698; pairs: keys=26295 sum=122143; triples: keys=176154 sum=405784 ts=2026-10-30T01:08:43+03:00 (version=1)
+2026-10-30 01:08:43,552 сессия завершена
+
+2026-11-12 03:44:17,888 старт координатора id=A fencing=True session_timeout=10000ms
+2026-11-12 03:44:17,986 === стал лидером (id=A, fencing=True) ===
+2026-11-12 03:44:18,011 эпоха лидерства: 1
+2026-11-12 03:44:18,014 старт с начала файла
+2026-11-12 03:44:18,222 чекпоинт offset=16776260; singles: keys=168 sum=591; pairs: keys=1595 sum=2476; triples: keys=7936 sum=9082
+2026-11-12 03:44:20,422 чекпоинт offset=33551604; singles: keys=249 sum=1124; pairs: keys=2387 sum=4533; triples: keys=11558 sum=15493
+2026-11-12 03:44:22,627 чекпоинт offset=50327199; singles: keys=317 sum=1655; pairs: keys=3188 sum=6553; triples: keys=15222 sum=21008
+2026-11-12 03:44:24,850 чекпоинт offset=67105215; singles: keys=384 sum=2336; pairs: keys=4249 sum=9363; triples: keys=23356 sum=33057
+2026-11-12 03:44:27,069 чекпоинт offset=83883330; singles: keys=432 sum=2902; pairs: keys=4866 sum=11631; triples: keys=26701 sum=40161
+2026-11-12 03:44:29,289 чекпоинт offset=100661283; singles: keys=474 sum=3368; pairs: keys=5375 sum=13270; triples: keys=29498 sum=44827
+2026-11-12 03:44:31,524 чекпоинт offset=117436620; singles: keys=523 sum=3952; pairs: keys=6259 sum=15655; triples: keys=35697 sum=53426
+2026-11-12 03:44:33,763 чекпоинт offset=134215550; singles: keys=543 sum=4478; pairs: keys=6532 sum=17445; triples: keys=37040 sum=58218
+2026-11-12 03:44:36,006 чекпоинт offset=150989822; singles: keys=591 sum=5073; pairs: keys=7422 sum=19945; triples: keys=43212 sum=67419
+2026-11-12 03:44:38,251 чекпоинт offset=167770246; singles: keys=634 sum=5791; pairs: keys=8002 sum=22527; triples: keys=46168 sum=73904
+2026-11-12 03:44:40,511 чекпоинт offset=184549068; singles: keys=661 sum=6456; pairs: keys=8454 sum=25304; triples: keys=48999 sum=82729
+2026-11-12 03:44:42,758 чекпоинт offset=201323860; singles: keys=679 sum=7043; pairs: keys=8749 sum=27731; triples: keys=50979 sum=90659
+2026-11-12 03:44:45,004 чекпоинт offset=218103763; singles: keys=731 sum=7705; pairs: keys=9440 sum=30231; triples: keys=54960 sum=97879
+2026-11-12 03:44:47,258 чекпоинт offset=234879796; singles: keys=765 sum=8296; pairs: keys=9880 sum=32480; triples: keys=57309 sum=104238
+2026-11-12 03:44:49,511 чекпоинт offset=251657362; singles: keys=798 sum=8915; pairs: keys=10280 sum=34804; triples: keys=59293 sum=110621
+2026-11-12 03:44:51,761 чекпоинт offset=268432966; singles: keys=819 sum=9407; pairs: keys=10616 sum=36666; triples: keys=61604 sum=116342
+2026-11-12 03:45:38,798 сессия ZK истекла после паузы — переподключаюсь
+2026-11-12 03:45:38,822 отклонено: устаревшая эпоха (моя=1, в ZK=2)
+2026-11-12 03:45:38,840 сессия завершена

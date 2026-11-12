@@ -1,0 +1,43 @@
+name: lab4-zookeeper
+
+services:
+  zoo1:
+    image: zookeeper:3.9.6
+    container_name: lab4-zoo1
+    hostname: zoo1
+    ports:
+      - "2181:2181"
+    environment:
+      ZOO_MY_ID: 1
+      ZOO_SERVERS: server.1=zoo1:2888:3888;2181 server.2=zoo2:2888:3888;2182 server.3=zoo3:2888:3888;2183
+    networks: [zk]
+    restart: "no"
+
+  zoo2:
+    image: zookeeper:3.9.6
+    container_name: lab4-zoo2
+    hostname: zoo2
+    ports:
+      - "2182:2182"
+    environment:
+      ZOO_MY_ID: 2
+      ZOO_CLIENT_PORT: 2182
+      ZOO_SERVERS: server.1=zoo1:2888:3888;2181 server.2=zoo2:2888:3888;2182 server.3=zoo3:2888:3888;2183
+    networks: [zk]
+    restart: "no"
+
+  zoo3:
+    image: zookeeper:3.9.6
+    container_name: lab4-zoo3
+    hostname: zoo3
+    ports:
+      - "2183:2183"
+    environment:
+      ZOO_MY_ID: 3
+      ZOO_CLIENT_PORT: 2183
+      ZOO_SERVERS: server.1=zoo1:2888:3888;2181 server.2=zoo2:2888:3888;2182 server.3=zoo3:2888:3888;2183
+    networks: [zk]
+    restart: "no"
+
+networks:
+  zk:
